@@ -9,7 +9,8 @@ public class DeliveryCompany {
     public DeliveryCompany(DeliverService deliverService) {
         this.deliverService = deliverService;
     }
-    public void sendProduct(Product product){
+
+    public void sendProduct(Product product) {
         this.deliverService.deliverProduct(product);
     }
 }

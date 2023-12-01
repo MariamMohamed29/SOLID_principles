@@ -1,6 +1,7 @@
 package theInterface.segregation.principle.invalid.example;
+
 //this violates the interface segregation principle because the class have to implement all methods in the interface
-public class FreeParking implements ParkingLot{
+public class FreeParking implements ParkingLot {
     @Override
     public void parkCar() {
 

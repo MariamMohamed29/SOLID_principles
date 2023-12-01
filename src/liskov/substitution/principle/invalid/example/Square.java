@@ -1,6 +1,6 @@
 package liskov.substitution.principle.invalid.example;
 
-public class Square extends Rectangle{
+public class Square extends Rectangle {
 
     @Override
     public void setWidth(int width) {

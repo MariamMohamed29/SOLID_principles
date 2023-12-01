@@ -4,47 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9523a46d-b637-473a-9831-53636d28b526" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SOLID principles.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dependency/inversion/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dependency/inversion/invalid/example/DeliveryCompany.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dependency/inversion/invalid/example/DeliveryDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dependency/inversion/invalid/example/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dependency/inversion/valid/example/DeliverDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dependency/inversion/valid/example/DeliverService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dependency/inversion/valid/example/DeliveryCompany.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liskov/substitution/principle/invalid/example/LiskovSubstitutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liskov/substitution/principle/invalid/example/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liskov/substitution/principle/invalid/example/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liskov/substitution/principle/valid/example/LiskovSubstitutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liskov/substitution/principle/valid/example/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liskov/substitution/principle/valid/example/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liskov/substitution/principle/valid/example/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/open/closed/principle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/open/closed/principle/invalid/example/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/open/closed/principle/invalid/example/ShapePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/open/closed/principle/invalid/example/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/open/closed/principle/valid/example/MyRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/open/closed/principle/valid/example/MyShapePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/open/closed/principle/valid/example/MySquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/open/closed/principle/valid/example/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/single/responsibility/principle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/single/responsibility/principle/invalid/example/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/single/responsibility/principle/valid/example/CustomerDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/single/responsibility/principle/valid/example/CustomerModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/single/responsibility/principle/valid/example/CustomerReportGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theInterface/segregation/principle/invalid/example/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theInterface/segregation/principle/invalid/example/FreeParking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theInterface/segregation/principle/invalid/example/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theInterface/segregation/principle/valid/example/PaidParking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theInterface/segregation/principle/valid/example/Parking.java" afterDir="false" />
+    <list default="true" id="9523a46d-b637-473a-9831-53636d28b526" name="Changes" comment="implement solid principles">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dependency/inversion/invalid/example/DeliveryCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dependency/inversion/invalid/example/DeliveryCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dependency/inversion/invalid/example/DeliveryDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dependency/inversion/invalid/example/DeliveryDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +56,18 @@
       <option name="presentableId" value="Default" />
       <updated>1701379334008</updated>
     </task>
+    <task id="LOCAL-00001" summary="implement solid principles">
+      <created>1701392421483</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701392421483</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implement solid principles" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement solid principles" />
   </component>
 </project>

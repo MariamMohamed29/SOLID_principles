@@ -1,7 +1,6 @@
 package open.closed.principle.valid.example;
 
 
-
 public class MyRectangle extends Shape {
     private int width;
     private int height;

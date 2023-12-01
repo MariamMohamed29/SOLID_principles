@@ -1,6 +1,6 @@
 package liskov.substitution.principle.valid.example;
 
-public class Rectangle implements Shape{
+public class Rectangle implements Shape {
     private int width;
     private int height;
 
@@ -19,6 +19,6 @@ public class Rectangle implements Shape{
 
     @Override
     public int area() {
-        return width*height;
+        return width * height;
     }
 }

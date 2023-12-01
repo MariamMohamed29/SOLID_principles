@@ -1,6 +1,6 @@
 package liskov.substitution.principle.valid.example;
 
-public class Square implements Shape{
+public class Square implements Shape {
     private int side;
 
     public Square(int side) {
@@ -13,6 +13,6 @@ public class Square implements Shape{
 
     @Override
     public int area() {
-        return side*side;
+        return side * side;
     }
 }
