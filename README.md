@@ -11,3 +11,9 @@ The goal of the principles is the creation of mid-level software structures that
 • Are the basis of components that can be used in many software systems.
 
 The term “mid-level” refers to the fact that these principles are applied by programmers working at the module level. They are applied just above the level of the code and help to define the kinds of software structures used within modules and components.
+## SOLID Acronym
+• S : Single Responsibility Principle (SRP)
+• O : Open closed Principle (OSP)
+• L : Liskov substitution Principle (LSP)
+• I : Interface Segregation Principle (ISP)
+• D : Dependency Inversion Principle (DIP)
