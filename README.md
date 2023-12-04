@@ -35,13 +35,16 @@ The term “mid-level” refers to the fact that these principles are applied by
 
 • D : Dependency Inversion Principle (DIP)
 ### 1-SRP: The Single Responsibility Principle
-An active corollary to Conway’s law: The best structure for a software system is heavily influenced by the social structure of the organization that uses it so that each software module has one, and only one, reason to change.
+A class should have one, and only one responsibility/ reason to change.
+All methods and properties of a class should be cohesive i.e. directly relate to its responsibility, by working towards a common goal. When a class serves multiple purposes/ responsibilities, it becomes really difficult to read, repair or to expand it, at which point it should be made into a new class. This principle is very noticeable in case of an application that begins to grow with time, with enriched functionalities added to already existing classes and their capabilities.
 ### 2-OCP: The Open-Closed Principle
-Bertrand Meyer made this principle famous in the 1980s. The gist is that for software systems to be easy to change, they must be designed to allow the behavior of those systems to be changed by adding new code, rather than changing existing code.
+Software entities should be open for extension, but closed for modification.
+Software entities (classes, modules, functions, etc.) should be extendable without actually changing contents of class being extended. If this principle is followed strongly enough, it is possible to then modify behaviour of code without ever touching the piece of original code. The application must be ready for extensions, as it has to continuously evolve based on the changes of external system.
 ### 3-LSP: The Liskov Substitution Principle
 Barbara Liskov’s famous definition of subtypes, from 1988. In short, this principle says that to build software systems from interchangeable parts, those parts must adhere to a contract that allows those parts to be substituted one for another.
 ### 4-ISP: The Interface Segregation Principle
 This principle advises software designers to avoid depending on things that they don’t use.
 ### 5-DIP: The Dependency Inversion Principle
-The code that implements high-level policy should not depend on the code that implements low-level details. Rather, details should depend on policies.
+Depend on abstractions, not on concretions.
+High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.
 
