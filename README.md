@@ -34,4 +34,6 @@ The term “mid-level” refers to the fact that these principles are applied by
 • I : Interface Segregation Principle (ISP)
 
 • D : Dependency Inversion Principle (DIP)
+### 1-SRP: The Single Responsibility Principle
+An active corollary to Conway’s law: The best structure for a software system is heavily influenced by the social structure of the organization that uses it so that each software module has one, and only one, reason to change.
 
